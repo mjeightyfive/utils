@@ -9,9 +9,12 @@
         "test": "turbo run test",
         "dev": "turbo run dev --parallel",
         "lint": "turbo run lint",
-        "format": "prettier --write \"**/*.{js,jsx,md}\""
+        "format": "prettier --write \"**/*.{js,jsx,md}\"",
+        "changeset": "changeset",
+        "release": "changeset publish"
     },
     "devDependencies": {
+        "@changesets/cli": "2.19.0",
         "prettier": "^2.5.1",
         "turbo": "latest"
     },
