@@ -1,0 +1,30 @@
+{
+    "name": "@mjefi/stylelint-config",
+    "version": "0.0.0",
+    "description": "stylelint-config",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "test": "jest && npm run lint",
+        "lint": "eslint --config ../eslint-config/index.js"
+    },
+    "keywords": [
+        "stylelint",
+        "stylelint-config",
+        "lint"
+    ],
+    "author": "Marcin <mjeightyfive@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "stylelint-config-standard": "22.0.0"
+    },
+    "devDependencies": {
+        "jest": "26.6.3",
+        "stylelint": "13.13.1"
+    },
+    "peerDependencies": {
+        "stylelint": "^13.13.1"
+    }
+}

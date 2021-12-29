@@ -1,0 +1,42 @@
+{
+    "name": "utils",
+    "version": "0.0.0",
+    "private": true,
+    "workspaces": [
+        "configs/*"
+    ],
+    "scripts": {
+        "test": "turbo run test",
+        "dev": "turbo run dev --parallel",
+        "lint": "turbo run lint",
+        "format": "prettier --write \"**/*.{js,jsx,md}\""
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1",
+        "turbo": "latest"
+    },
+    "engines": {
+        "npm": ">=7.0.0",
+        "node": ">=14.0.0"
+    },
+    "eslintConfig": {
+        "env": {
+            "jest": true
+        }
+    },
+    "turbo": {
+        "pipeline": {
+            "test": {
+                "dependsOn": [
+                    "^test"
+                ]
+            },
+            "lint": {
+                "outputs": []
+            },
+            "dev": {
+                "cache": false
+            }
+        }
+    }
+}
