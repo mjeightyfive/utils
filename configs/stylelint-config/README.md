@@ -1,4 +1,4 @@
-# @mjeightyfive/stylelint-config [![Build Status](https://travis-ci.com/mjeightyfive/stylelint-config.svg?branch=master)](https://travis-ci.com/mjeightyfive/@mjeightyfive/stylelint-config)
+# @mjeightyfive/stylelint-config
 
 > stylelint config
 
@@ -17,4 +17,4 @@ then in your `.stylelintrc` add:
 
 ## License
 
-MIT © [mjeightyfive](http://twitter.com/mjeightyfive)
+MIT © [mjeightyfive](https://mje.fi)
