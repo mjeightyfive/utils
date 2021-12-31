@@ -1,0 +1,72 @@
+:root {
+    --colour-maroon: #850322;
+    --colour-white: #fff;
+    --colour-black: #111;
+    --colour-grey: #aaa;
+
+    /*
+    --colour-silver: #ddd;
+    --colour-dark: #212121;
+    --colour-navy: #001F3F;
+    --colour-blue: #007aff;
+    --colour-indigo: #5856d6;
+    --colour-pink: #ff2d55;
+    --colour-aqua: #7FDBFF;
+    --colour-teal: #5ac8fa;
+    --colour-olive: #3D9970;
+    --colour-green: #34c759;
+    --colour-lime: #01FF70;
+    --colour-yellow: #ffcc00;
+    --colour-orange: #ff9500;
+    --colour-red: #ff3b30;
+    --colour-fuchsia: #F012BE;
+    --colour-purple: #af52de;
+ */
+    --colour-initial: var(--colour-white);
+    --colour-primary: var(--colour-black);
+    --colour-secondary: var(--colour-grey);
+    --colour-accent: var(--colour-maroon);
+
+    --spacing-s: env(--margin);
+    --spacing-m: calc(env(--margin) * 2);
+    --spacing-l: calc(env(--margin) * 3);
+    --spacing-xl: calc(env(--margin) * 4);
+
+    --radius: 0.3rem;
+
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+
+    --weight-normal: 400;
+    --weight-bold: 700;
+
+    @media (prefers-color-scheme: dark) {
+        --colour-initial: #232323;
+        --colour-primary: var(--colour-white);
+
+        --weight-normal: 300;
+        --weight-bold: 600;
+    }
+}
+
+.light {
+    --colour-initial: var(--colour-white);
+    --colour-primary: var(--colour-black);
+    --weight-normal: 400;
+    --weight-bold: 700;
+}
+
+.dark {
+    --colour-initial: #232323;
+    --colour-primary: var(--colour-white);
+
+    --weight-normal: 300;
+    --weight-bold: 600;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        --font-sans: 'Inter var', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+            'Droid Sans', 'Helvetica Neue', sans-serif;
+    }
+}

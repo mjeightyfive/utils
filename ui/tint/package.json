@@ -1,0 +1,26 @@
+{
+    "name": "@mjeightyfive/tint",
+    "version": "0.0.24",
+    "description": "Base CSS Styles",
+    "main": "dist/tint.css",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css",
+        "dev": "postcss src/tint.css --watch --map --config postcss.config.js --output docs/tint.css"
+    },
+    "dependencies": {
+        "modern-normalize": "^1.1.0"
+    },
+    "devDependencies": {
+        "@mjeightyfive/stylelint-config": "*",
+        "postcss-cli": "9.1.0",
+        "postcss-env-function": "4.0.3",
+        "postcss-import": "14.0.2",
+        "precss": "4.0.0",
+        "stylelint": "14.2.0"
+    },
+    "author": "Marcin <mjeightyfive@gmail.com>",
+    "license": "MIT"
+}
