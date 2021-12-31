@@ -1,6 +1,6 @@
 'use strict';
 
-const config = require('../');
+const config = require('../index.js');
 const fs = require('fs');
 const stylelint = require('stylelint');
 
@@ -57,7 +57,7 @@ describe('flags warnings with invalid css', () => {
     });
 
     it('correct line number', () => {
-        return result.then((data) => expect(data.results[0].warnings[0].line).toBe(2));
+        return result.then((data) => expect(data.results[0].warnings[0].line).toBe(3));
     });
 
     it('correct column number', () => {

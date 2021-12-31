@@ -3,13 +3,16 @@
     "version": "1.0.0",
     "private": true,
     "workspaces": [
-        "configs/*"
+        "configs/*",
+        "ui/*"
     ],
     "scripts": {
+        "clean": "rm -rf node_modules && npx --workspaces -c 'rm -rf node_modules'",
         "test": "turbo run test",
         "dev": "turbo run dev --parallel",
+        "build": "turbo run build --parallel",
         "lint": "turbo run lint",
-        "format": "prettier --write \"**/*.{js,jsx,md}\"",
+        "format": "prettier --write \"**/*.{js,jsx,md,css}\"",
         "changeset": "changeset",
         "release": "changeset publish"
     },
@@ -29,13 +32,25 @@
     },
     "turbo": {
         "pipeline": {
+            "lint": {
+                "dependsOn": [
+                    "^lint"
+                ],
+                "outputs": []
+            },
             "test": {
                 "dependsOn": [
-                    "^test"
-                ]
-            },
-            "lint": {
+                    "build"
+                ],
                 "outputs": []
+            },
+            "build": {
+                "dependsOn": [
+                    "^build"
+                ],
+                "outputs": [
+                    "dist/**"
+                ]
             },
             "dev": {
                 "cache": false

@@ -10,6 +10,7 @@ module.exports = {
         'color-named': 'always-where-possible',
         'declaration-no-important': true,
         indentation: 4,
-        'string-quotes': 'single'
+        'string-quotes': 'single',
+        'alpha-value-notation': 'number'
     }
 };
