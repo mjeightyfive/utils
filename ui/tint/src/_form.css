@@ -1,3 +1,14 @@
+select {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>')
+        center right no-repeat;
+}
+
+textarea {
+    height: 9rem;
+    resize: vertical;
+    vertical-align: top;
+}
+
 input[type='email'],
 input[type='number'],
 input[type='password'],
@@ -32,19 +43,8 @@ select {
     }
 }
 
-select {
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>')
-        center right no-repeat;
-
-    &:focus {
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%212121" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
-    }
-}
-
-textarea {
-    height: 9rem;
-    resize: vertical;
-    vertical-align: top;
+select:focus {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%212121" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
 }
 
 legend {

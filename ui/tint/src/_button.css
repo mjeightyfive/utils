@@ -21,12 +21,12 @@ input[type='submit'] {
     text-transform: uppercase;
     white-space: nowrap;
 
-    .button,
-    button,
-    input[type='button'],
-    input[type='reset'],
-    input[type='submit'] {
-    }
+    /*
+        button,
+        input[type='button'],
+        input[type='reset'],
+        input[type='submit'] {}
+    */
 
     &:focus,
     &:hover {

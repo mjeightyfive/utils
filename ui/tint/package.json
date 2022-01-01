@@ -8,7 +8,9 @@
     ],
     "scripts": {
         "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css",
-        "dev": "postcss src/tint.css --watch --map --config postcss.config.js --output docs/tint.css"
+        "dev": "postcss src/tint.css --watch --map --config postcss.config.js --output docs/tint.css",
+        "test": "npm run lint",
+        "lint": "stylelint 'src/**/*.css'"
     },
     "dependencies": {
         "modern-normalize": "^1.1.0"
