@@ -1,0 +1,9 @@
+a {
+    color: var(--colour-primary);
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+        color: var(--colour-tertiary);
+    }
+}

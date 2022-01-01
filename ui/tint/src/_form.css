@@ -1,0 +1,74 @@
+select {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>')
+        center right no-repeat;
+}
+
+textarea {
+    height: 9rem;
+    resize: vertical;
+    vertical-align: top;
+}
+
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+input[type='color'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='datetime'],
+input[type='datetime-local'],
+input:not([type]),
+textarea,
+select {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid var(--colour-secondary);
+    border-radius: var(--radius);
+    box-shadow: none;
+    box-sizing: inherit;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--colour-primary);
+
+    &:focus {
+        border-color: var(--colour-accent);
+        outline: 0;
+    }
+}
+
+select:focus {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%212121" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
+}
+
+legend {
+    display: block;
+}
+
+fieldset {
+    border-width: 0;
+    padding: 0;
+}
+
+label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+form {
+    ul {
+        list-style: none;
+    }
+}

@@ -1,0 +1,14 @@
+blockquote {
+    padding: env(--margin);
+    border-left: 0.3rem solid var(--colour-tertiary);
+    margin-left: 0;
+    margin-right: 0;
+
+    p {
+        font-style: italic;
+    }
+
+    *:last-child {
+        margin-bottom: 0;
+    }
+}

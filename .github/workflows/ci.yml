@@ -19,6 +19,9 @@ jobs:
               with:
                   node-version: 14.x
 
+            - name: Use latest NPM Version
+              run: npm i -g npm@latest
+
             - name: Install Dependencies
               run: npm ci
 
