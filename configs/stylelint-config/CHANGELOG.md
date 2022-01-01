@@ -1,5 +1,11 @@
 # @mjeightyfive/stylelint-config
 
+## 0.0.14
+
+### Patch Changes
+
+-   d349a7c: add tint, make it use latest stylelint and update deps
+
 ## 0.0.13
 
 ### Patch Changes
