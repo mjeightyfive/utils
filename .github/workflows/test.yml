@@ -1,5 +1,5 @@
-name: Test
-'on':
+name: Test PR
+on:
     pull_request:
         branches:
             - master
@@ -7,12 +7,22 @@ name: Test
 
 jobs:
     test:
+        name: Test
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v2
+            - name: Checkout Repo
+              uses: actions/checkout@v2
+
+            - name: Setup Node.js 14.x
+              uses: actions/setup-node@v2
               with:
-                  node-version: '14'
-                  cache: npm
-            - run: npm ci
-            - run: npm test
+                  node-version: 14.x
+
+            - name: NPM Version
+              run: npm --version
+
+            - name: Install Dependencies
+              run: npm ci
+
+            - name: Test
+              run: npm test
