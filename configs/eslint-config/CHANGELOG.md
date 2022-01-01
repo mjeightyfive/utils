@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.58
+
+### Patch Changes
+
+-   d349a7c: add tint, make it use latest stylelint and update deps
+
 ## 0.0.57
 
 ### Patch Changes
