@@ -4,7 +4,6 @@ body {
     font-family: var(--font-sans);
     color: var(--colour-primary);
     font-weight: var(--weight-normal);
-    letter-spacing: -0.03125rem;
 }
 
 h1 {
@@ -12,7 +11,7 @@ h1 {
     line-height: env(--line-height-xl);
     margin-top: env(--margin);
     margin-bottom: env(--margin);
-    letter-spacing: -0.1875rem;
+    letter-spacing: -0.0625rem;
 }
 
 h2 {
@@ -20,7 +19,7 @@ h2 {
     line-height: env(--line-height-l);
     margin-top: env(--margin);
     margin-bottom: env(--margin);
-    letter-spacing: -0.125rem;
+    letter-spacing: -0.0625rem;
 }
 
 h3 {
@@ -28,7 +27,6 @@ h3 {
     line-height: env(--line-height-m);
     margin-top: env(--margin);
     margin-bottom: 0;
-    letter-spacing: -0.0625rem;
 }
 
 h4,
@@ -105,7 +103,6 @@ legend {
     line-height: env(--line-height-l);
     margin-top: env(--margin);
     margin-bottom: env(--margin);
-    letter-spacing: -0.125rem;
     font-weight: var(--weight-bold);
 }
 
@@ -114,7 +111,6 @@ fieldset {
     label {
         display: inline-block;
         vertical-align: top;
-        letter-spacing: -0.0625rem;
         font-size: env(--font-size-s);
         line-height: env(--line-height-s);
     }
@@ -143,7 +139,7 @@ fieldset {
         line-height: env(--line-height-xl);
         margin-top: env(--margin);
         margin-bottom: env(--margin);
-        letter-spacing: -0.1875rem;
+        letter-spacing: -0.0625rem;
     }
 
     .h2 {
@@ -151,7 +147,7 @@ fieldset {
         line-height: env(--line-height-l);
         margin-top: env(--margin);
         margin-bottom: env(--margin);
-        letter-spacing: -0.125rem;
+        letter-spacing: -0.0625rem;
     }
 
     .h3 {
@@ -159,7 +155,6 @@ fieldset {
         line-height: env(--line-height-m);
         margin-top: env(--margin);
         margin-bottom: 0;
-        letter-spacing: -0.0625rem;
     }
 
     .h4,
