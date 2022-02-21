@@ -52,18 +52,20 @@ const type = {
     XL: scale(size.XL, FONT_SIZE, LINE_HEIGHT, SCALE_FACTOR)
 };
 
+const environmentVariables = {
+    '--line-height': LINE_HEIGHT,
+    '--line-height-html': `${FONT_SIZE * LINE_HEIGHT}px`,
+    '--font-size-s': type.S.f,
+    '--font-size-m': type.M.f,
+    '--font-size-l': type.L.f,
+    '--font-size-xl': type.XL.f,
+    '--line-height-s': type.S.l,
+    '--line-height-m': type.M.l,
+    '--line-height-l': type.L.l,
+    '--line-height-xl': type.XL.l,
+    '--margin': margin
+};
+
 module.exports = {
-    environmentVariables: {
-        '--line-height': LINE_HEIGHT,
-        '--line-height-html': `${FONT_SIZE * LINE_HEIGHT}px`,
-        '--font-size-s': type.S.f,
-        '--font-size-m': type.M.f,
-        '--font-size-l': type.L.f,
-        '--font-size-xl': type.XL.f,
-        '--line-height-s': type.S.l,
-        '--line-height-m': type.M.l,
-        '--line-height-l': type.L.l,
-        '--line-height-xl': type.XL.l,
-        '--margin': margin
-    }
+    environmentVariables
 };
