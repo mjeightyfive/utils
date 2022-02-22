@@ -1,6 +1,13 @@
 # @mjeightyfive/tint
 
-## 0.0.25
+## 0.0.26
+
 ### Patch Changes
 
-- d349a7c: add tint, make it use latest stylelint and update deps
+-   a3b6f48: update dependencies
+
+## 0.0.25
+
+### Patch Changes
+
+-   d349a7c: add tint, make it use latest stylelint and update deps

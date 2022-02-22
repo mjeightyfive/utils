@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.59
+
+### Patch Changes
+
+-   a3b6f48: update dependencies
+
 ## 0.0.58
 
 ### Patch Changes

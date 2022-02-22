@@ -1,5 +1,11 @@
 # @mjeightyfive/stylelint-config
 
+## 0.0.15
+
+### Patch Changes
+
+-   a3b6f48: update dependencies
+
 ## 0.0.14
 
 ### Patch Changes
