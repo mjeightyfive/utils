@@ -43,7 +43,7 @@
 
 @media (orientation: portrait), projection and (color) {
     .selector-i + .selector-ii {
-        background: color(black lightness(50%));
+        background: color(black brightness(50%));
         font-family: helvetica, 'arial black', sans-serif;
     }
 }
