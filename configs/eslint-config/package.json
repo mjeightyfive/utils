@@ -16,28 +16,27 @@
         "lint": "eslint --config index.js"
     },
     "dependencies": {
-        "eslint-config-next": "^12.0.7",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-config-standard": "^16.0.3",
-        "eslint-plugin-jest": "^25.3.3",
+        "eslint-config-next": "^12.1.0",
+        "eslint-config-prettier": "^8.4.0",
+        "eslint-config-standard": "^17.0.0-1",
+        "eslint-plugin-jest": "^26.1.1",
         "eslint-plugin-prettier": "^4.0.0"
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "4.33.0",
-        "eslint": "7.32.0",
-        "eslint-config-standard-with-typescript": "21.0.1",
-        "eslint-plugin-import": "2.25.3",
+        "@typescript-eslint/eslint-plugin": "5.12.0",
+        "eslint": "8.9.0",
+        "eslint-plugin-import": "2.25.4",
         "eslint-plugin-node": "11.1.0",
-        "eslint-plugin-promise": "5.2.0",
-        "jest": "27.4.5",
-        "typescript": "4.5.4"
+        "eslint-plugin-promise": "6.0.0",
+        "jest": "27.5.1",
+        "typescript": "4.5.5"
     },
     "peerDependencies": {
-        "eslint": "^7.0.0",
-        "eslint-config-next": "^12.0.7",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-config-standard": "^16.0.3",
-        "eslint-plugin-jest": "^25.3.3",
+        "eslint": "^8.0.0",
+        "eslint-config-next": "^12.1.0",
+        "eslint-config-prettier": "^8.4.0",
+        "eslint-config-standard": "^17.0.0-1",
+        "eslint-plugin-jest": "^26.1.1",
         "eslint-plugin-prettier": "^4.0.0"
     }
 }

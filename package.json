@@ -13,11 +13,13 @@
         "build": "turbo run build --parallel",
         "lint": "turbo run lint",
         "format": "prettier --write \"**/*.{js,jsx,md,css}\"",
+        "update": "ncu",
         "changeset": "changeset",
         "release": "changeset publish"
     },
     "devDependencies": {
-        "@changesets/cli": "2.19.0",
+        "@changesets/cli": "2.21.0",
+        "npm-check-updates": "12.4.0",
         "prettier": "^2.5.1",
         "turbo": "latest"
     },
@@ -30,31 +32,5 @@
             "jest": true
         }
     },
-    "turbo": {
-        "pipeline": {
-            "lint": {
-                "dependsOn": [
-                    "^lint"
-                ],
-                "outputs": []
-            },
-            "test": {
-                "dependsOn": [
-                    "build"
-                ],
-                "outputs": []
-            },
-            "build": {
-                "dependsOn": [
-                    "^build"
-                ],
-                "outputs": [
-                    "dist/**"
-                ]
-            },
-            "dev": {
-                "cache": false
-            }
-        }
-    }
+    "packageManager": "npm@8.4.0"
 }
