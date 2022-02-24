@@ -1,5 +1,11 @@
 # @mjeightyfive/tint
 
+## 0.0.27
+
+### Patch Changes
+
+-   2f94909: remove precss and use legacy color function
+
 ## 0.0.26
 
 ### Patch Changes
