@@ -12,6 +12,7 @@ module.exports = {
         'value-list-comma-newline-after': null,
         'max-line-length': 140,
         'number-max-precision': 5,
-        'selector-pseudo-class-no-unknown': null
+        'selector-pseudo-class-no-unknown': null,
+        'color-function-notation': 'legacy'
     }
 };
