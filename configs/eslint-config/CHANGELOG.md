@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.60
+
+### Patch Changes
+
+-   5d168fb: bump deps
+
 ## 0.0.59
 
 ### Patch Changes
