@@ -1,6 +1,7 @@
 {
     "extends": ["plugin:jest/recommended", "prettier", "./es.js"],
     "plugins": ["prettier", "jest"],
+    "root": true,
     "env": {
         "node": true,
         "es6": true,
