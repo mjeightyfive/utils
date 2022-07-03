@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "test": "jest && npm run lint",
-    "lint": "eslint --config ../eslint-config/index.js"
+    "lint": "eslint"
   },
   "dependencies": {
     "stylelint-config-standard": "26.0.0"
