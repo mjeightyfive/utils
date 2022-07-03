@@ -1,4 +1,4 @@
-# @mjeightyfive/moments-cli
+# @mjefi/moments-cli
 
 ## 0.0.3
 
