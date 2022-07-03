@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.62
+
+### Patch Changes
+
+- 4d2407c: 2 spaces and ts eslint
+
 ## 0.0.61
 
 ### Patch Changes

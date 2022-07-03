@@ -1,6 +1,6 @@
 {
   "name": "@mjeightyfive/tint",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Base CSS Styles",
   "main": "dist/tint.css",
   "files": [
