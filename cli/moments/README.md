@@ -1,4 +1,4 @@
-# @mjeightyfive/moments-cli
+# @mjefi/moments-cli
 
 > Rename Photos.app exported folders
 
@@ -22,7 +22,7 @@ to:
 ## Install
 
 ```
-$ npm i -g @mjeightyfive/moments-cli
+$ npm i -g @mjefi/moments-cli
 ```
 
 ## Usage

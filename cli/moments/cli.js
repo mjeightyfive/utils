@@ -16,7 +16,8 @@ const cli = meow(
         ✔ 2019-06-26 - Riverside - Glasgow, Scotland
         ✔ 2019-06-27 - Ad Lib - Merchant City - Ingram Street
         ✔ 2019-06-28 - Walk In The Park
-    `
+    `,
+  { importMeta: import.meta }
 )
 
 const path = cli.input[0] || '.'
