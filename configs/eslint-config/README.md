@@ -22,22 +22,22 @@ then in your `.eslintrc.json` add:
 "extends": ["@mjeightyfive/eslint-config", "@mjeightyfive/eslint-config/react"]
 ```
 
-then install React dependencies:
-
-```sh
-npm i -D eslint-config-react-app @babel/eslint-parser@^7.14.7 @typescript-eslint/eslint-plugin@^4.0.0 @typescript-eslint/parser@^4.0.0 babel-preset-react-app@^10.0.0 eslint@^7.5.0 eslint-plugin-flowtype@^5.2.0 eslint-plugin-import@^2.22.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-react@^7.20.3 eslint-plugin-react-hooks@^4.0.8 eslint-plugin-testing-library@^3.9.0
-```
-
 ### JSON:
 
 ```json
 "extends": ["@mjeightyfive/eslint-config", "@mjeightyfive/eslint-config/json"]
 ```
 
-then install JSON plugin dependency:
+### TypeScript:
 
-```sh
-npm i -D eslint-plugin-json
+```json
+"extends": ["@mjeightyfive/eslint-config", "@mjeightyfive/eslint-config/typescript"]
+```
+
+### React + TypeScript:
+
+```json
+"extends": ["@mjeightyfive/eslint-config", "@mjeightyfive/eslint-config/react", "@mjeightyfive/eslint-config/typescript"]
 ```
 
 ## License

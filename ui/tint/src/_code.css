@@ -2,45 +2,45 @@ code,
 kbd,
 samp,
 pre {
-    font-size: calc(env(--font-size-s) * 0.8);
-    line-height: calc(env(--line-height-s) * 0.8);
+  font-size: calc(env(--font-size-s) * 0.8);
+  line-height: calc(env(--line-height-s) * 0.8);
 }
 
 kbd {
-    padding: 0;
+  padding: 0;
 }
 
 samp {
-    display: block;
-    padding: env(--margin);
+  display: block;
+  padding: env(--margin);
 }
 
 code {
-    background-color: var(--colour-primary);
-    color: var(--colour-initial);
-    margin: 0;
-    position: relative;
-    top: -1px;
-    white-space: nowrap;
-    border-radius: var(--radius);
+  background-color: var(--colour-primary);
+  color: var(--colour-initial);
+  margin: 0;
+  position: relative;
+  top: -1px;
+  white-space: nowrap;
+  border-radius: var(--radius);
 }
 
 :not(pre) code {
-    padding: 0.4rem;
+  padding: 0.4rem;
 }
 
 pre {
-    margin-bottom: env(--margin);
-    background-color: var(--colour-primary);
-    color: var(--colour-initial);
-    border-radius: var(--radius);
-    overflow-y: hidden;
+  margin-bottom: env(--margin);
+  background-color: var(--colour-primary);
+  color: var(--colour-initial);
+  border-radius: var(--radius);
+  overflow-y: hidden;
 
-    code {
-        padding: env(--margin);
-        margin-top: 0;
-        display: block;
-        white-space: pre;
-        color: var(--colour-initial);
-    }
+  code {
+    padding: env(--margin);
+    margin-top: 0;
+    display: block;
+    white-space: pre;
+    color: var(--colour-initial);
+  }
 }
