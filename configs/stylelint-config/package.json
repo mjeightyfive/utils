@@ -7,7 +7,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "jest && npm run lint",
+    "test": "jest",
     "lint": "eslint"
   },
   "dependencies": {
