@@ -11,11 +11,11 @@
         "lint": "eslint --config ../eslint-config/index.js"
     },
     "dependencies": {
-        "stylelint-config-standard": "25.0.0"
+        "stylelint-config-standard": "26.0.0"
     },
     "devDependencies": {
-        "jest": "28.0.2",
-        "stylelint": "14.8.0"
+        "jest": "28.1.2",
+        "stylelint": "14.9.1"
     },
     "peerDependencies": {
         "stylelint": "^14.0.0"
