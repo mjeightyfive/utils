@@ -1,5 +1,11 @@
 # @mjefi/moments
 
+## 0.0.5
+
+### Patch Changes
+
+- d2a9bfe: rename moments-cli to moments
+
 ## 0.0.4
 
 ### Patch Changes
