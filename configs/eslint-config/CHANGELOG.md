@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.64
+
+### Patch Changes
+
+- 2cdd4b6: clean up scripts
+
 ## 0.0.63
 
 ### Patch Changes

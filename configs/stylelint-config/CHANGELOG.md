@@ -1,5 +1,11 @@
 # @mjeightyfive/stylelint-config
 
+## 0.0.21
+
+### Patch Changes
+
+- 2cdd4b6: clean up scripts
+
 ## 0.0.20
 
 ### Patch Changes
