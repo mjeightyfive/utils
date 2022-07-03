@@ -18,9 +18,9 @@
         "release": "changeset publish"
     },
     "devDependencies": {
-        "@changesets/cli": "2.22.0",
-        "npm-check-updates": "12.5.10",
-        "prettier": "^2.6.2",
+        "@changesets/cli": "2.23.0",
+        "npm-check-updates": "15.0.1",
+        "prettier": "^2.7.1",
         "turbo": "latest"
     },
     "engines": {
