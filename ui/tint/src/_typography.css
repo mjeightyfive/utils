@@ -1,42 +1,42 @@
 body {
-    font-size: env(--font-size-s);
-    line-height: env(--line-height-s);
-    font-family: var(--font-sans);
-    color: var(--colour-primary);
-    font-weight: var(--weight-normal);
+  font-size: env(--font-size-s);
+  line-height: env(--line-height-s);
+  font-family: var(--font-sans);
+  color: var(--colour-primary);
+  font-weight: var(--weight-normal);
 }
 
 h1 {
-    font-size: env(--font-size-xl);
-    line-height: env(--line-height-xl);
-    margin-top: env(--margin);
-    margin-bottom: env(--margin);
-    letter-spacing: -0.0625rem;
+  font-size: env(--font-size-xl);
+  line-height: env(--line-height-xl);
+  margin-top: env(--margin);
+  margin-bottom: env(--margin);
+  letter-spacing: -0.0625rem;
 }
 
 h2 {
-    font-size: env(--font-size-l);
-    line-height: env(--line-height-l);
-    margin-top: env(--margin);
-    margin-bottom: env(--margin);
-    letter-spacing: -0.0625rem;
+  font-size: env(--font-size-l);
+  line-height: env(--line-height-l);
+  margin-top: env(--margin);
+  margin-bottom: env(--margin);
+  letter-spacing: -0.0625rem;
 }
 
 h3 {
-    font-size: env(--font-size-m);
-    line-height: env(--line-height-m);
-    margin-top: env(--margin);
-    margin-bottom: 0;
+  font-size: env(--font-size-m);
+  line-height: env(--line-height-m);
+  margin-top: env(--margin);
+  margin-bottom: 0;
 }
 
 h4,
 h5,
 h6 {
-    font-size: env(--font-size-s);
-    line-height: env(--line-height-s);
-    margin-top: env(--margin);
-    margin-bottom: 0;
-    letter-spacing: 0;
+  font-size: env(--font-size-s);
+  line-height: env(--line-height-s);
+  margin-top: env(--margin);
+  margin-bottom: 0;
+  letter-spacing: 0;
 }
 
 p,
@@ -44,13 +44,13 @@ ul,
 ol,
 table,
 blockquote {
-    margin-top: 0;
-    margin-bottom: env(--margin);
+  margin-top: 0;
+  margin-bottom: env(--margin);
 }
 
 td,
 th {
-    padding: 0;
+  padding: 0;
 }
 
 h1,
@@ -59,111 +59,111 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-sans);
-    font-weight: var(--weight-bold);
+  font-family: var(--font-sans);
+  font-weight: var(--weight-bold);
 }
 
 ul ul,
 ol ol,
 ul ol,
 ol ul {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 hr {
-    margin: -1px 0;
-    border-top: 1px solid var(--colour-primary);
+  margin: -1px 0;
+  border-top: 1px solid var(--colour-primary);
 }
 
 sub,
 sup {
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sup {
-    top: -0.5rem;
+  top: -0.5rem;
 }
 
 sub {
-    bottom: -0.25rem;
+  bottom: -0.25rem;
 }
 
 a,
 em,
 b,
 strong {
-    font-weight: var(--weight-bold);
+  font-weight: var(--weight-bold);
 }
 
 legend {
+  font-size: env(--font-size-l);
+  line-height: env(--line-height-l);
+  margin-top: env(--margin);
+  margin-bottom: env(--margin);
+  font-weight: var(--weight-bold);
+}
+
+fieldset {
+  p,
+  label {
+    display: inline-block;
+    vertical-align: top;
+    font-size: env(--font-size-s);
+    line-height: env(--line-height-s);
+  }
+
+  li {
+    input {
+      margin: 0;
+    }
+  }
+
+  label {
+    font-weight: var(--weight-bold);
+  }
+
+  label + input,
+  label + select,
+  label + textarea {
+    margin-top: calc(env(--line-height) / 4 * 1rem);
+    margin-bottom: calc(env(--line-height) / 4 * 1rem);
+  }
+}
+
+:global {
+  .h1 {
+    font-size: env(--font-size-xl);
+    line-height: env(--line-height-xl);
+    margin-top: env(--margin);
+    margin-bottom: env(--margin);
+    letter-spacing: -0.0625rem;
+  }
+
+  .h2 {
     font-size: env(--font-size-l);
     line-height: env(--line-height-l);
     margin-top: env(--margin);
     margin-bottom: env(--margin);
-    font-weight: var(--weight-bold);
-}
+    letter-spacing: -0.0625rem;
+  }
 
-fieldset {
-    p,
-    label {
-        display: inline-block;
-        vertical-align: top;
-        font-size: env(--font-size-s);
-        line-height: env(--line-height-s);
-    }
+  .h3 {
+    font-size: env(--font-size-m);
+    line-height: env(--line-height-m);
+    margin-top: env(--margin);
+    margin-bottom: 0;
+  }
 
-    li {
-        input {
-            margin: 0;
-        }
-    }
-
-    label {
-        font-weight: var(--weight-bold);
-    }
-
-    label + input,
-    label + select,
-    label + textarea {
-        margin-top: calc(env(--line-height) / 4 * 1rem);
-        margin-bottom: calc(env(--line-height) / 4 * 1rem);
-    }
-}
-
-:global {
-    .h1 {
-        font-size: env(--font-size-xl);
-        line-height: env(--line-height-xl);
-        margin-top: env(--margin);
-        margin-bottom: env(--margin);
-        letter-spacing: -0.0625rem;
-    }
-
-    .h2 {
-        font-size: env(--font-size-l);
-        line-height: env(--line-height-l);
-        margin-top: env(--margin);
-        margin-bottom: env(--margin);
-        letter-spacing: -0.0625rem;
-    }
-
-    .h3 {
-        font-size: env(--font-size-m);
-        line-height: env(--line-height-m);
-        margin-top: env(--margin);
-        margin-bottom: 0;
-    }
-
-    .h4,
-    .h5,
-    .h6 {
-        font-size: env(--font-size-s);
-        line-height: env(--line-height-s);
-        margin-top: env(--margin);
-        margin-bottom: 0;
-        letter-spacing: 0;
-    }
+  .h4,
+  .h5,
+  .h6 {
+    font-size: env(--font-size-s);
+    line-height: env(--line-height-s);
+    margin-top: env(--margin);
+    margin-bottom: 0;
+    letter-spacing: 0;
+  }
 }

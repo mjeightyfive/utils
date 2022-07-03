@@ -1,36 +1,36 @@
 {
-    "name": "utils",
-    "version": "1.0.0",
-    "private": true,
-    "workspaces": [
-        "configs/*",
-        "ui/*"
-    ],
-    "scripts": {
-        "clean": "rm -rf node_modules && npx --workspaces -c 'rm -rf node_modules'",
-        "test": "turbo run test",
-        "dev": "turbo run dev --parallel",
-        "build": "turbo run build --parallel",
-        "lint": "turbo run lint",
-        "format": "prettier --write \"**/*.{js,jsx,md,css}\"",
-        "update": "ncu -u && npx --workspaces -c 'ncu -u'",
-        "changeset": "changeset",
-        "release": "changeset publish"
-    },
-    "devDependencies": {
-        "@changesets/cli": "2.23.0",
-        "npm-check-updates": "15.0.1",
-        "prettier": "^2.7.1",
-        "turbo": "latest"
-    },
-    "engines": {
-        "npm": ">=7.0.0",
-        "node": ">=14.0.0"
-    },
-    "eslintConfig": {
-        "env": {
-            "jest": true
-        }
-    },
-    "packageManager": "npm@8.4.0"
+  "name": "utils",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "configs/*",
+    "ui/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules && npx --workspaces -c 'rm -rf node_modules'",
+    "test": "turbo run test",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{js,jsx,md,css}\"",
+    "update": "ncu -u && npx --workspaces -c 'ncu -u'",
+    "changeset": "changeset",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.23.0",
+    "npm-check-updates": "15.0.1",
+    "prettier": "^2.7.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=14.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "jest": true
+    }
+  },
+  "packageManager": "npm@8.4.0"
 }

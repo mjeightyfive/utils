@@ -1,20 +1,20 @@
 /* vertical rhythm */
 .vr {
-    background-image: linear-gradient(rgba(36, 164, 226, 0.3) 1px, transparent 1px);
-    background-size: 100% calc(env(--line-height) * env(--font-size-s));
+  background-image: linear-gradient(rgba(36, 164, 226, 0.3) 1px, transparent 1px);
+  background-size: 100% calc(env(--line-height) * env(--font-size-s));
 }
 
 .vr * {
-    position: relative;
+  position: relative;
 }
 
 .vr * ::after {
-    content: '';
-    background-color: rgba(36, 164, 226, 0.1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  content: '';
+  background-color: rgba(36, 164, 226, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }

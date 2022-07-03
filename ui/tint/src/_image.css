@@ -1,14 +1,14 @@
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 figcaption {
-    font-size: env(--font-size-s);
-    line-height: env(--line-height-s);
-    margin-top: 0;
-    margin-bottom: 0;
+  font-size: env(--font-size-s);
+  line-height: env(--line-height-s);
+  margin-top: 0;
+  margin-bottom: 0;
 }

@@ -1,11 +1,11 @@
 module.exports = {
-    extends: ['next', 'prettier'],
-    settings: {
-        next: {
-            rootDir: ['packages/*/']
-        }
-    },
-    rules: {
-        'no-html-link-for-pages': 'off'
+  extends: ['next'],
+  settings: {
+    next: {
+      // rootDir: ['packages/*/']
     }
-};
+  },
+  rules: {
+    'no-html-link-for-pages': 'off'
+  }
+}

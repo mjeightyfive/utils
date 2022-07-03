@@ -1,3 +1,3 @@
 {
-    "extends": ["@mjeightyfive/stylelint-config"]
+  "extends": ["@mjeightyfive/stylelint-config"]
 }
