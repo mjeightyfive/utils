@@ -1,5 +1,11 @@
 # @mjeightyfive/stylelint-config
 
+## 0.0.20
+
+### Patch Changes
+
+- 7560f75: update readme
+
 ## 0.0.19
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.63
+
+### Patch Changes
+
+- 7560f75: update readme
+
 ## 0.0.62
 
 ### Patch Changes
