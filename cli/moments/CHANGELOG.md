@@ -1,5 +1,11 @@
 # @mjefi/moments-cli
 
+## 0.0.4
+
+### Patch Changes
+
+- 7d6f044: fix cli meta and change scope
+
 ## 0.0.3
 
 ### Patch Changes
