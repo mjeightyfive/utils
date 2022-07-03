@@ -1,6 +1,6 @@
 # @mjeightyfive/stylelint-config
 
-> stylelint config
+> Stylelint Config
 
 ## Usage
 

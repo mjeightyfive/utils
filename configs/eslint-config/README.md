@@ -1,6 +1,6 @@
 # @mjeightyfive/eslint-config
 
-> eslint config
+> Eslint Config
 
 ## Install
 
