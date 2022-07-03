@@ -1,6 +1,6 @@
 {
     "name": "@mjeightyfive/moments-cli",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Rename Photos.app exported folders",
     "type": "module",
     "main": "cli.js",
