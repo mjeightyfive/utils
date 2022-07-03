@@ -1,5 +1,11 @@
 # @mjeightyfive/tint
 
+## 0.0.30
+
+### Patch Changes
+
+-   8a449d6: update dependencies
+
 ## 0.0.29
 
 ### Patch Changes
