@@ -12,7 +12,7 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{js,jsx,md,css}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css}\"",
     "update": "ncu -u && npx --workspaces -c 'ncu -u'",
     "changeset": "changeset",
     "release": "changeset publish"
