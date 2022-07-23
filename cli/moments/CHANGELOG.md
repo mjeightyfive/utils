@@ -1,5 +1,11 @@
 # @mjefi/moments
 
+## 0.0.7
+
+### Patch Changes
+
+- 64ede77: tidy up deps
+
 ## 0.0.6
 
 ### Patch Changes
