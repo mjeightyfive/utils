@@ -1,0 +1,19 @@
+exports.PALM = [
+  '#palepalmcollection',
+  '#palmtree',
+  '#palmtrees',
+  '#genic_palmtree',
+  '#hugapalmtree',
+  '#ilovepalmtrees',
+  '#lovepalmtrees',
+  '#palmtreeart',
+  '#palmtreecrew',
+  '#palmtreelife',
+  '#palmtreelove',
+  '#palmtreemagazine',
+  '#palmtreephotography',
+  '#palmtreeseverywhere',
+  '#palmtreesplease',
+  '#underthepalmtree',
+  '#underthepalmtrees'
+]

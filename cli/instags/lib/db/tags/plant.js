@@ -1,0 +1,20 @@
+exports.PLANT = [
+  '#botanical',
+  '#flora',
+  '#instaplant',
+  '#plantaddict',
+  '#plantcollection',
+  '#plantcommunity',
+  '#plantgang',
+  '#plantlife',
+  '#plantlove',
+  '#plantphotography',
+  '#plantpower',
+  '#plantsarefriends',
+  '#plantslover',
+  '#plantsofinstagram',
+  '#plantstagram',
+  '#succulent',
+  '#succulents',
+  '#succulove'
+]

@@ -1,0 +1,21 @@
+exports.BEACH = [
+  '#beachart',
+  '#beachday',
+  '#beachdays',
+  '#beaches',
+  '#beachlife',
+  '#beachlove',
+  '#beachlover',
+  '#beachlovers',
+  '#beachphotography',
+  '#beachphotoshoot',
+  '#beachplease',
+  '#beachside',
+  '#beachtherapy',
+  '#beachtime',
+  '#beachvacation',
+  '#beachvibes',
+  '#beachview',
+  '#instabeach',
+  '#playa'
+]
