@@ -1,0 +1,33 @@
+{
+  "name": "@mjefi/instags",
+  "version": "0.0.1",
+  "description": "Generate instagram hashtags",
+  "bin": {
+    "instags": "cli.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "cli.js",
+    "ui.jsx"
+  ],
+  "dependencies": {
+    "import-jsx": "4.0.1",
+    "ink": "3.2.0",
+    "meow": "^9.0.0",
+    "react": "17.0.2"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "instagram",
+    "tags",
+    "hashtags"
+  ],
+  "author": "Marcin <mjeightyfive@gmail.com>",
+  "license": "MIT"
+}
