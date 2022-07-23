@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.65
+
+### Patch Changes
+
+- df64fbe: add missing .eslintrc.json export
+
 ## 0.0.64
 
 ### Patch Changes
