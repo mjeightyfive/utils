@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.0.4
+
+### Patch Changes
+
+- eb9e96a: update package.json
+
 ## 0.0.3
 
 ### Patch Changes
