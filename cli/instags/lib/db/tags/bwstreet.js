@@ -1,0 +1,22 @@
+exports.BW_STREET = [
+  '#blackandwhite',
+  '#blackandwhitephotography',
+  '#bnw',
+  '#bnw_captures',
+  '#bnw_greatshots',
+  '#bnw_today',
+  '#bnwmood',
+  '#bnwphotography',
+  '#bnwstreet',
+  '#bnwstreetphoto',
+  '#bw_street',
+  '#bwphotography',
+  '#streetphoto_bnw',
+  '#streetphoto_bw',
+  '#streetphotobw',
+  '#streetphotobw_photooftheday',
+  '#streetphotography_bnw',
+  '#streetphotography_bw',
+  '#streetphotographybnw',
+  '#streetphotographybw'
+]

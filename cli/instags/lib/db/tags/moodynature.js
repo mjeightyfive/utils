@@ -1,0 +1,23 @@
+exports.MOODY_NATURE = [
+  '#1shot_moodynature',
+  '#darkgrammer',
+  '#filthyflora',
+  '#folkgreenmoody',
+  '#gloomgrabber',
+  '#ig_magical_nature',
+  '#iheartmoodynature',
+  '#iheartnature',
+  '#moody_nature',
+  '#moody_tones',
+  '#moodygreen',
+  '#moodynature',
+  '#moodynatureearthexclusive',
+  '#moodynaturepics',
+  '#myweekofmoodynature',
+  '#na_natures_art',
+  '#natura_friends',
+  '#natures_moods',
+  '#ourmoodynature',
+  '#portsinspiredmoodynature',
+  '#rsa_outdoorsmoodynature'
+]

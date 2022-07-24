@@ -3,6 +3,7 @@
 > Rename Photos.app exported folders
 
 CLI app to help convert exported folders from e.g.:
+
 ```
 .
 ├── Amsterdam Airport Schiphol - Schiphol, North Holland, 10 June 2019

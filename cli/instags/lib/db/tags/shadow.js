@@ -1,0 +1,19 @@
+exports.SHADOW = [
+  '#contrast',
+  '#intheshadow',
+  '#intheshadows',
+  '#lightandshadow',
+  '#lightsandshadows',
+  '#lekkerzine',
+  '#lightzine',
+  '#shadowandlight',
+  '#shadowart',
+  '#shadowblack',
+  '#shadowfam',
+  '#shadowhunter',
+  '#shadowlove',
+  '#shadowphotography',
+  '#shadowplay',
+  '#shadows',
+  '#shadowshapes'
+]
