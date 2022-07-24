@@ -1,6 +1,6 @@
 {
   "name": "@mjefi/instags",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate instagram hashtags",
   "bin": {
     "instags": "cli.js"

@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.0.3
+
+### Patch Changes
+
+- fff45bf: add instags and align cli workspace dependencies
+
 ## 0.0.2
 
 ### Patch Changes
