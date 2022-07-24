@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.0.5
+
+### Patch Changes
+
+- a80f3d8: add picomatch
+
 ## 0.0.4
 
 ### Patch Changes
