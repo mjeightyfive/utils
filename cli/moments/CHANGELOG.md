@@ -1,5 +1,11 @@
 # @mjefi/moments
 
+## 0.0.8
+
+### Patch Changes
+
+- fff45bf: add instags and align cli workspace dependencies
+
 ## 0.0.7
 
 ### Patch Changes
