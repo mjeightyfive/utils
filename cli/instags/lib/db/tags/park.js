@@ -1,1 +1,1 @@
-exports.PARK = ['#awalkinthepark', '#findyourpark', '#parkavenue', '#parklife', '#parkrun', '#walkinthepark', '#walkintheparkseries']
+exports.PARK = ['#awalkinthepark', '#findyourpark', '#parklife', '#parkrun', '#walkinthepark', '#walkintheparkseries']
