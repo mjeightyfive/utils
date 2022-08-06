@@ -69,10 +69,11 @@ const { GLASGOW } = require('./tags/glasgow.js')
 const { SCOTLAND } = require('./tags/scotland.js')
 
 const LIMIT = 30
-const FIXED_TAGS = 5 // VISIT + #untitledsnaps
+const FIXED_TAGS = 15 // VISIT + #untitledsnaps
+const FIXED_GENERIC_TAGS = 10
 
 const trimNonLetters = (str) => (str && str.replace(/'/g, '')) || ''
-const maxTagsPerKeyword = (length) => Math.ceil((LIMIT + FIXED_TAGS) / length)
+const maxTagsPerKeyword = (length) => Math.ceil((LIMIT - FIXED_TAGS) / length)
 const hashify = (str) => (str && `#${trimNonLetters(str).replace(/ /g, '').toLowerCase()}`) || ''
 
 const createPost = ({ exif, filename, onComplete }) => {
@@ -139,6 +140,22 @@ const createPost = ({ exif, filename, onComplete }) => {
         exifTags = exifTags.filter((exifTag) => exifTag !== `#${query}`)
       }
     })
+  }
+
+  if (Country.includes('United Kingdom') && (exif.Model === 'X-T3' || exif.Model === 'X100V')) {
+    specificTags = [...specificTags, '#fujifilm_uk']
+  }
+
+  if (keywords.includes('street') && exif.Model === 'X-T3') {
+    specificTags = [...specificTags, ...getRandomN(XT3_STREET, maxTagsPerKeyWordToTake)]
+  }
+
+  if (keywords.includes('street') && exif.Model === 'X100V') {
+    specificTags = [...specificTags, ...getRandomN(X100V_STREET, maxTagsPerKeyWordToTake)]
+  }
+
+  if (Country.includes('United Kingdom')) {
+    specificTags = ['#ukshots', '#ukshooters', ...specificTags]
   }
 
   // single specific
@@ -211,14 +228,6 @@ const createPost = ({ exif, filename, onComplete }) => {
   )
 
   // custom
-  if (keywords.includes('street') && exif.Model === 'X-T3') {
-    specificTags = [...specificTags, ...getRandomN(XT3_STREET, maxTagsPerKeyWordToTake)]
-  }
-
-  if (keywords.includes('street') && exif.Model === 'X100V') {
-    specificTags = [...specificTags, ...getRandomN(X100V_STREET, maxTagsPerKeyWordToTake)]
-  }
-
   if (City.includes('Glasgow')) {
     specificTags = [...specificTags, ...getRandomN(GLASGOW, maxTagsPerKeyWordToTake)]
   }
@@ -227,23 +236,19 @@ const createPost = ({ exif, filename, onComplete }) => {
     specificTags = [...specificTags, ...getRandomN(SCOTLAND, maxTagsPerKeyWordToTake)]
   }
 
-  if (Country.includes('United Kingdom')) {
-    specificTags = ['#ukshots', '#ukshooters', ...specificTags]
-  }
-
   if (Country.includes('United Kingdom') && exif.Make === 'Canon') {
     specificTags = [...specificTags, '#canonuk']
   }
 
-  if (Country.includes('United Kingdom') && (exif.Model === 'X-T3' || exif.Model === 'X100V')) {
-    specificTags = [...specificTags, '#fujifilm_uk']
+  if (Country.includes('United Kingdom') && keywords.includes('street')) {
+    specificTags = [...specificTags, '#streetphotographyuk']
   }
 
   const caption = `${(place && `${place}, `) || ''}${(City && `${City}, `) || ''}${(State && `${State}, `) || ''}${
     (Country && `${Country}`) || ''
   }`
 
-  let hashtags = [...VISIT, '#untitledsnaps', ...exifTags, ...specificTags, ...getRandomN(GENERIC, 3), ...LOCATION]
+  let hashtags = [...VISIT, '#untitledsnaps', ...getRandomN(GENERIC, FIXED_GENERIC_TAGS), ...specificTags, ...exifTags, ...LOCATION]
 
   hashtags = hashtags.filter((tag) => !BLACKLIST.includes(tag)).filter((a, b, self) => self.indexOf(a) === b)
 
