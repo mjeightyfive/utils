@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.0
+
+### Minor Changes
+
+- adccaa5: update tags generator
+
 ## 0.0.5
 
 ### Patch Changes
