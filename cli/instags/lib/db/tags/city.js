@@ -1,7 +1,4 @@
 exports.CITY = [
-  '#cities',
-  '#cityart',
-  '#citybestpics',
   '#citybreak',
   '#cityexplore',
   '#citygram',
@@ -21,6 +18,9 @@ exports.CITY = [
   '#cityview',
   '#cityviews',
   '#citywalk',
+  '#deceptive_cities',
+  '#thecommuterstock',
+  '#urban_addicts',
   '#urbanadventures',
   '#urbanandstreet',
   '#urbanandstreets',
