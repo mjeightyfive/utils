@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.2
+
+### Patch Changes
+
+- 72b15cd: update city tags
+
 ## 0.1.1
 
 ### Patch Changes
