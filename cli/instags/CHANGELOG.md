@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.3
+
+### Patch Changes
+
+- 7a2f2b5: update instags package json
+
 ## 0.1.2
 
 ### Patch Changes
