@@ -1,5 +1,0 @@
----
-'tsconfig': patch
----
-
-add tsconfigs
