@@ -1,0 +1,5 @@
+---
+'tsconfig': patch
+---
+
+add tsconfigs
