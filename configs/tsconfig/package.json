@@ -1,0 +1,15 @@
+{
+  "name": "tsconfig",
+  "version": "0.0.1",
+  "main": "base.json",
+  "files": [
+    "base.json",
+    "cjs.json",
+    "esm.json",
+    "next.json",
+    "react.json"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
