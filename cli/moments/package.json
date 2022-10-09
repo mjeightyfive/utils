@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint ./**/*.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules ../../node_modules/.bin/jest --config jest.config.js"
+    "test": "pwd && NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.js"
   },
   "dependencies": {
     "dayjs": "1.11.4",
@@ -24,6 +24,7 @@
     "@babel/preset-env": "7.18.9",
     "@mjeightyfive/eslint-config": "*",
     "@types/jest": "28.1.6",
+    "chalk": "5.1.0",
     "jest": "28.1.3",
     "mock-fs": "5.1.2"
   },
