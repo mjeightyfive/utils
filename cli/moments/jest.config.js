@@ -2,7 +2,7 @@
 export default {
   transform: {},
   moduleNameMapper: {
-    chalk: '../../node_modules/chalk/index.js',
+    chalk: '../../node_modules/chalk/source/index.js',
     '#ansi-styles': '../../node_modules/chalk/source/vendor/ansi-styles/index.js'
   }
 }
