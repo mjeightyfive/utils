@@ -41,12 +41,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: Create release Pull Request or Publish to npm
+      - name: Install dependencies
+        run: pnpm i
+
+      - name: Create release Pull Request or publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
-          # version: pnpm ci:version
-          commit: "ci: publish versions"
-          publish: npm run release
+          publish: pnpm release
         env:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
