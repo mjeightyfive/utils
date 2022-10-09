@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "@mjeightyfive/tsconfig",
   "version": "0.0.2",
   "main": "base.json",
   "files": [
