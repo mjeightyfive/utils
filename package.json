@@ -8,19 +8,17 @@
     "ui/*"
   ],
   "scripts": {
-    "clean": "rm -rf node_modules && npx --workspaces -c 'rm -rf node_modules'",
+    "clean": "rm -rf node_modules .turbo && npx --workspaces -c 'rm -rf node_modules .turbo'",
     "dev": "turbo run dev --parallel",
     "build": "turbo run build --parallel",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "update": "ncu -u && npx --workspaces -c 'ncu -u'",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css}\"",
     "changeset": "changeset",
     "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "2.25.0",
-    "npm-check-updates": "16.0.0",
     "prettier": "^2.7.1",
     "turbo": "latest"
   },
