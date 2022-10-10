@@ -1,6 +1,6 @@
 {
   "name": "@mjeightyfive/tsconfig",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "base.json",
   "files": [
     "base.json",
