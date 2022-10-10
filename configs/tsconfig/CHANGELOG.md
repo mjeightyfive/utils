@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.0.6
+
+### Patch Changes
+
+- 1a62cf8: jsx preserve
+
 ## 0.0.5
 
 ### Patch Changes
