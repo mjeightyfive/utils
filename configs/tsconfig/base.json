@@ -6,7 +6,7 @@
     "moduleResolution": "node16",
     "moduleDetection": "force",
     "resolveJsonModule": false, // ESM doesn't yet support JSON modules
-    "jsx": "react",
+    "jsx": "preserve",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowSyntheticDefaultImports": true,
     "checkJs": true,
