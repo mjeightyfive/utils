@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.0.5
+
+### Patch Changes
+
+- ab89ca8: tsconfig include react and update base
+
 ## 0.0.4
 
 ### Patch Changes
