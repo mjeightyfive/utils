@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.4
+
+### Patch Changes
+
+- f25a1e4: bump deps
+
 ## 0.1.3
 
 ### Patch Changes

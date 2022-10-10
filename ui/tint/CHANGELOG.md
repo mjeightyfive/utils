@@ -1,5 +1,11 @@
 # @mjeightyfive/tint
 
+## 0.0.32
+
+### Patch Changes
+
+- f25a1e4: bump deps
+
 ## 0.0.31
 
 ### Patch Changes
