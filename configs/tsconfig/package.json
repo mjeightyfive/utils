@@ -6,8 +6,7 @@
     "base.json",
     "cjs.json",
     "esm.json",
-    "next.json",
-    "react.json"
+    "next.json"
   ],
   "engines": {
     "node": ">=14"
