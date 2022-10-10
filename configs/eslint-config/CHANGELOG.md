@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.68
+
+### Patch Changes
+
+- 6f8e247: fix eslint env
+
 ## 0.0.67
 
 ### Patch Changes
