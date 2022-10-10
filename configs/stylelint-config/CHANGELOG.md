@@ -1,5 +1,11 @@
 # @mjeightyfive/stylelint-config
 
+## 0.0.23
+
+### Patch Changes
+
+- f25a1e4: bump deps
+
 ## 0.0.22
 
 ### Patch Changes

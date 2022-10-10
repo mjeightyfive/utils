@@ -1,5 +1,11 @@
 # @mjefi/moments
 
+## 0.0.10
+
+### Patch Changes
+
+- f25a1e4: bump deps
+
 ## 0.0.9
 
 ### Patch Changes
