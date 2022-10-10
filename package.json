@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "2.25.0",
+    "@mjeightyfive/eslint-config": "workspace:*",
+    "@mjeightyfive/prettier-config": "workspace:*",
     "npm-check-updates": "16.3.11",
     "prettier": "^2.7.1",
     "turbo": "latest"
