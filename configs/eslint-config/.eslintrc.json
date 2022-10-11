@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:n/recommended", "./es.js", "prettier"],
+  "extends": ["plugin:n/recommended", "./es.js", "prettier", "plugin:prettier/recommended"],
   "root": true,
   "env": {
     "browser": true,
@@ -11,15 +11,11 @@
     "ecmaVersion": 2022,
     "sourceType": "module"
   },
+  "plugins": ["prettier"],
   "rules": {
-    "semi": ["error", "never"],
-    "comma-dangle": ["error", "never"],
+    "prettier/prettier": "error",
     "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "indent": ["error", 2, { "SwitchCase": 1 }],
-    "key-spacing": ["error", { "afterColon": true, "beforeColon": false }],
-    "space-before-function-paren": ["error", { "anonymous": "never", "named": "never", "asyncArrow": "always" }],
-    "max-len": ["off"],
-    "eol-last": ["error", "always"],
     "import/extensions": ["error", "always", { "ignorePackages": true }],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "n/no-unsupported-features/es-syntax": ["error", { "ignores": ["modules"] }]
