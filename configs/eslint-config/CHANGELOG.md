@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.69
+
+### Patch Changes
+
+- 469aa1c: eslint prettier
+
 ## 0.0.68
 
 ### Patch Changes
