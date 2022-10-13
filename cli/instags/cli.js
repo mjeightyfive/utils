@@ -38,7 +38,7 @@ const path = cli.input[0] || '.'
 const dest = resolve(path)
 
 const main = async () => {
-  if(!cli.flags.database) {
+  if (!cli.flags.database) {
     console.log('\nOnly `instags --db` is supported at the moment')
     return
   }
