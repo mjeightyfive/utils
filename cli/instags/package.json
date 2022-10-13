@@ -1,6 +1,6 @@
 {
   "name": "@mjefi/instags",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Generate social media hashtags",
   "bin": {
     "instags": "cli.js"
