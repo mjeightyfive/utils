@@ -1,4 +1,4 @@
 packages:
-  - "cli/*"
-  - "configs/*"
-  - "ui/*"
+  - 'cli/*'
+  - 'configs/*'
+  - 'ui/*'
