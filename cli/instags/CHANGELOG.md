@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.6
+
+### Patch Changes
+
+- 6550883: add @types/node
+
 ## 0.1.5
 
 ### Patch Changes

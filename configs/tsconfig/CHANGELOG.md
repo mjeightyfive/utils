@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.0.7
+
+### Patch Changes
+
+- 6550883: add @types/node
+
 ## 0.0.6
 
 ### Patch Changes
