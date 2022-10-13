@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.5
+
+### Patch Changes
+
+- 7b839d4: format
+
 ## 0.1.4
 
 ### Patch Changes
