@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.70
+
+### Patch Changes
+
+- 6550883: add @types/node
+
 ## 0.0.69
 
 ### Patch Changes

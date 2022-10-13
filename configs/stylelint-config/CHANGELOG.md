@@ -1,5 +1,11 @@
 # @mjeightyfive/stylelint-config
 
+## 0.0.24
+
+### Patch Changes
+
+- 6550883: add @types/node
+
 ## 0.0.23
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mjefi/moments
 
+## 0.0.11
+
+### Patch Changes
+
+- 6550883: add @types/node
+
 ## 0.0.10
 
 ### Patch Changes
