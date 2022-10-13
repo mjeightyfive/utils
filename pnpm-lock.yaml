@@ -50,7 +50,6 @@ importers:
   cli/moments:
     specifiers:
       '@babel/preset-env': 7.19.4
-      '@mjeightyfive/eslint-config': '*'
       '@types/jest': 29.1.2
       chalk: 5.1.0
       dayjs: 1.11.5
@@ -72,7 +71,6 @@ importers:
       subdirs: 1.0.1
     devDependencies:
       '@babel/preset-env': 7.19.4_@babel+core@7.19.3
-      '@mjeightyfive/eslint-config': link:../../configs/eslint-config
       '@types/jest': 29.1.2
       chalk: 5.1.0
       jest: 29.1.2

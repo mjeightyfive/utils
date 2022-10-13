@@ -2,11 +2,6 @@
   "name": "utils",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "cli/*",
-    "configs/*",
-    "ui/*"
-  ],
   "scripts": {
     "clean": "rm -rf node_modules .turbo && npx --workspaces -c 'rm -rf node_modules .turbo'",
     "dev": "turbo run dev --parallel",
