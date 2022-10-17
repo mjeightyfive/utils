@@ -6,6 +6,7 @@ exports.X100V = [
   '#fujifilm_xseries',
   '#fujifilmcamera',
   '#fujifilmfocus',
+  '#fujifilmforum',
   '#fujifilmglobal',
   '#fujifilmphotography',
   '#fujifilmx',
