@@ -6,6 +6,7 @@ exports.XT3 = [
   '#fujifilm_xseries',
   '#fujifilmcamera',
   '#fujifilmfocus',
+  '#fujifilmforum',
   '#fujifilmglobal',
   '#fujifilmphotography',
   '#fujifilmx',
