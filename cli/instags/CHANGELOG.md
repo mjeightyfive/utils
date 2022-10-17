@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.8
+
+### Patch Changes
+
+- d9cad4d: downgrade esm deps
+
 ## 0.1.7
 
 ### Patch Changes
