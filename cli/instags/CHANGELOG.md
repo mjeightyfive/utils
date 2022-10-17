@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.7
+
+### Patch Changes
+
+- 05b2402: update fujifilm tags
+
 ## 0.1.6
 
 ### Patch Changes
