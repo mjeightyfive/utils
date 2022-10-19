@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint ./**/*.js",
-    "test": "pwd && NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.js"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.js"
   },
   "dependencies": {
     "dayjs": "1.11.5",
