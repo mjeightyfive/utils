@@ -20,7 +20,7 @@
     "@mjeightyfive/prettier-config": "workspace:*",
     "npm-check-updates": "16.3.11",
     "prettier": "^2.7.1",
-    "turbo": "latest"
+    "turbo": "1.6.0"
   },
   "engines": {
     "pnpm": ">=7.0.0",
