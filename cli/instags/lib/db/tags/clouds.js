@@ -1,5 +1,5 @@
 exports.CLOUDS = [
-  '#cloudappreciationsociety',
+  '#☁️👀',
   '#cloudart',
   '#cloudlife',
   '#cloudlove',
