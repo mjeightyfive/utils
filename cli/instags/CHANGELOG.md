@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.9
+
+### Patch Changes
+
+- a041308: update cloud tag
+
 ## 0.1.8
 
 ### Patch Changes
