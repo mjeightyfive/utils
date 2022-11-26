@@ -8,6 +8,9 @@ const { XT3 } = require('./tags/xt3.js')
 const { X100V } = require('./tags/x100v.js')
 const { CANON80D } = require('./tags/canon80d.js')
 const { RX100VI } = require('./tags/rx100vi.js')
+const { A6600 } = require('./tags/a6600.js')
+const { DLUX7 } = require('./tags/dlux7.js')
+const { GR3 } = require('./tags/gr3.js')
 const { BW } = require('./tags/bw.js')
 const { STREET } = require('./tags/street.js')
 const { BIRD } = require('./tags/bird.js')
@@ -126,8 +129,11 @@ const createPost = ({ exif, filename, onComplete }) => {
 
   if (exif.Model === 'X-T3') specificTags = [...specificTags, ...getRandomN(XT3, maxTagsPerKeyword(maxTagsPerKeyWordToTake))]
   if (exif.Model === 'X100V') specificTags = [...specificTags, ...getRandomN(X100V, maxTagsPerKeyword(maxTagsPerKeyWordToTake))]
+  if (exif.Model === 'ILCE-6600') specificTags = [...specificTags, ...getRandomN(A6600, maxTagsPerKeyword(maxTagsPerKeyWordToTake))]
+  if (exif.Model === 'D-Lux 7') specificTags = [...specificTags, ...getRandomN(DLUX7, maxTagsPerKeyword(maxTagsPerKeyWordToTake))]
+  if (exif.Model === 'DSC-RX100M6') specificTags = [...specificTags, ...getRandomN(RX100VI, maxTagsPerKeyWordToTake)]
+  if (exif.Model === 'RICOH GR III') specificTags = [...specificTags, ...getRandomN(GR3, maxTagsPerKeyWordToTake)]
   if (exif.Model === 'Canon EOS 80D') specificTags = [...specificTags, ...getRandomN(CANON80D, maxTagsPerKeyWordToTake)]
-  if (exif.Make === 'SONY') specificTags = [...specificTags, ...getRandomN(RX100VI, maxTagsPerKeyWordToTake)]
   if (exif.Make === 'Apple') specificTags = [...specificTags, ...getRandomN(IPHONE, maxTagsPerKeyWordToTake)]
   if (exif.Make === 'GoPro') specificTags = [...specificTags, ...getRandomN(GOPRO, maxTagsPerKeyWordToTake)]
 
