@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.11
+
+### Patch Changes
+
+- a450530: add more cams
+
 ## 0.1.10
 
 ### Patch Changes
