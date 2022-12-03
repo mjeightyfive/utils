@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.10
+
+### Patch Changes
+
+- f1ff9b1: add woofermag
+
 ## 0.1.9
 
 ### Patch Changes
