@@ -72,5 +72,6 @@ exports.GENERIC = [
   '#throughthelens',
   '#voyaged',
   '#welivetoexplore',
-  '#weltraumzine'
+  '#weltraumzine',
+  '#woofermagazine'
 ]
