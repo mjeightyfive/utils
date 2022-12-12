@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.76
+
+### Patch Changes
+
+- a48d9d7: n missing import off
+
 ## 0.0.75
 
 ### Patch Changes
