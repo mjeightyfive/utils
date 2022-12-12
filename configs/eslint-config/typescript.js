@@ -3,6 +3,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'import'],
   parser: '@typescript-eslint/parser',
   rules: {
+    "n/no-missing-import": "off",
     'import/extensions': [
       'error',
       'always',
