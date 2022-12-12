@@ -9,7 +9,7 @@ module.exports = {
       {
         ignorePackages: true,
         pattern: {
-          jsx: 'never',
+          ts: 'never',
           tsx: 'never'
         }
       }
