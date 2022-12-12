@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.72
+
+### Patch Changes
+
+- 5fa1ed1: rm next eslint from conf
+
 ## 0.0.71
 
 ### Patch Changes
