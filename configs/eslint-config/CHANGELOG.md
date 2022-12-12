@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.74
+
+### Patch Changes
+
+- 83d97db: ts ext resolver
+
 ## 0.0.73
 
 ### Patch Changes
