@@ -1,5 +1,11 @@
 # @mjeightyfive/eslint-config
 
+## 0.0.75
+
+### Patch Changes
+
+- 2c61775: ts ext
+
 ## 0.0.74
 
 ### Patch Changes

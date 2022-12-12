@@ -1,6 +1,6 @@
 {
   "name": "@mjeightyfive/eslint-config",
-  "version": "0.0.74",
+  "version": "0.0.75",
   "main": "index.js",
   "license": "MIT",
   "files": [
