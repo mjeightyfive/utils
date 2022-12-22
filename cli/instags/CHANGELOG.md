@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.12
+
+### Patch Changes
+
+- 9f6c19a: add documentary tags
+
 ## 0.1.11
 
 ### Patch Changes
