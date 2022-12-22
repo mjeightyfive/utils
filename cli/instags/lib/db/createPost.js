@@ -70,6 +70,7 @@ const { GOPRO } = require('./tags/gopro.js')
 const { GENERIC } = require('./tags/generic.js')
 const { GLASGOW } = require('./tags/glasgow.js')
 const { SCOTLAND } = require('./tags/scotland.js')
+const { DOCUMENTARY } = require('./tags/documentary.js')
 
 const LIMIT = 30
 const FIXED_TAGS = 15 // VISIT + #untitledsnaps
@@ -182,6 +183,7 @@ const createPost = ({ exif, filename, onComplete }) => {
   replaceKeywords(keywords, ['cold'], getRandomN(COLD, maxTagsPerKeyWordToTake))
   replaceKeywords(keywords, ['winter'], getRandomN(WINTER, maxTagsPerKeyWordToTake))
   replaceKeywords(keywords, ['spring'], getRandomN(SPRING, maxTagsPerKeyWordToTake))
+  replaceKeywords(keywords, ['documentary'], getRandomN(DOCUMENTARY, maxTagsPerKeyWordToTake))
   replaceKeywords(keywords, ['summer'], getRandomN(SUMMER, maxTagsPerKeyWordToTake))
   replaceKeywords(keywords, ['horse'], getRandomN(HORSE, maxTagsPerKeyWordToTake))
   replaceKeywords(keywords, ['minimal'], getRandomN(MINIMAL, maxTagsPerKeyWordToTake))
@@ -248,6 +250,14 @@ const createPost = ({ exif, filename, onComplete }) => {
 
   if (Country.includes('United Kingdom') && keywords.includes('street')) {
     specificTags = [...specificTags, '#streetphotographyuk']
+  }
+
+  if (Country.includes('United Kingdom') && keywords.includes('documentary')) {
+    specificTags = [...specificTags, '#documentingbritain']
+  }
+
+  if (City.includes('Glasgow') && keywords.includes('documentary')) {
+    specificTags = [...specificTags, '#documentingglasgow']
   }
 
   const caption = `${(place && `${place}, `) || ''}${(City && `${City}, `) || ''}${(State && `${State}, `) || ''}${
