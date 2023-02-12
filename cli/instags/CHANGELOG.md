@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.13
+
+### Patch Changes
+
+- befd108: update generic tags
+
 ## 0.1.12
 
 ### Patch Changes
