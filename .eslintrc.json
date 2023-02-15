@@ -1,3 +1,4 @@
 {
+  "root": true,
   "extends": ["@mjeightyfive/eslint-config", "@mjeightyfive/eslint-config/react", "@mjeightyfive/eslint-config/typescript"]
 }

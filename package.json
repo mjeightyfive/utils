@@ -3,24 +3,24 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "clean": "rm -rf node_modules .turbo && npx --workspaces -c 'rm -rf node_modules .turbo'",
+    "clean": "rm -rf node_modules .turbo && pnpm -r exec rm -rf node_modules .turbo",
     "dev": "turbo run dev --parallel",
     "build": "turbo run build --parallel",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "ncu": "ncu && npx --workspaces -c 'ncu'",
-    "ncu:u": "ncu -u && npx --workspaces -c 'ncu -u'",
+    "ncu": "ncu && pnpm -r exec ncu",
+    "ncu:u": "ncu -u && pnpm -r exec ncu -u",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css}\"",
     "changeset": "changeset",
     "release": "changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "2.25.0",
+    "@changesets/cli": "2.26.0",
     "@mjeightyfive/eslint-config": "workspace:*",
     "@mjeightyfive/prettier-config": "workspace:*",
-    "npm-check-updates": "16.3.11",
-    "prettier": "^2.7.1",
-    "turbo": "1.6.0"
+    "npm-check-updates": "16.7.4",
+    "prettier": "^2.8.4",
+    "turbo": "1.7.4"
   },
   "engines": {
     "pnpm": ">=7.0.0",

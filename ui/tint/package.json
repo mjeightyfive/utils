@@ -17,11 +17,11 @@
   },
   "devDependencies": {
     "@mjeightyfive/stylelint-config": "*",
-    "postcss": "8.4.17",
-    "postcss-cli": "10.0.0",
-    "postcss-env-function": "4.0.6",
-    "postcss-import": "15.0.0",
-    "stylelint": "14.13.0"
+    "postcss": "8.4.21",
+    "postcss-cli": "10.1.0",
+    "postcss-env-function": "5.0.1",
+    "postcss-import": "15.1.0",
+    "stylelint": "15.1.0"
   },
   "author": "Marcin <mjeightyfive@gmail.com>",
   "license": "MIT"

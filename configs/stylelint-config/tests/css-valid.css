@@ -1,5 +1,5 @@
-@import 'url(x.css)';
-@import 'url(y.css)';
+@import url('x.css');
+@import url('y.css');
 
 /**
  * Multi-line comment
@@ -62,6 +62,6 @@
   /* Flush nested single line comment */
   .selector::after {
     content: '→';
-    background-image: 'url(x.svg)';
+    background-image: url('x.svg');
   }
 }
