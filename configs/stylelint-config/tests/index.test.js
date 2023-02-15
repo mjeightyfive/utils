@@ -9,18 +9,22 @@ describe('flags no warnings with valid css', () => {
   let result
 
   beforeEach(() => {
-    result = stylelint.lint({
-      code: validCss,
-      config
-    })
+    return stylelint
+      .lint({
+        code: validCss,
+        config
+      })
+      .then((res) => {
+        result = res
+      })
   })
 
   it('did not error', () => {
-    return result.then((data) => expect(data.errored).toBeFalsy())
+    expect(result.errored).toBeFalsy()
   })
 
   it('flags no warnings', () => {
-    return result.then((data) => expect(data.results[0].warnings.length).toBe(0))
+    expect(result.results[0].warnings.length).toBe(0)
   })
 })
 

@@ -1,9 +1,9 @@
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended'],
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   rules: {
-    "n/no-missing-import": "off",
+    'n/no-missing-import': 'off',
     'import/extensions': [
       'error',
       'always',
