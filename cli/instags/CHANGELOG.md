@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.14
+
+### Patch Changes
+
+- ddb2c92: update city tags
+
 ## 0.1.13
 
 ### Patch Changes
