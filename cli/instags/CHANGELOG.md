@@ -1,5 +1,11 @@
 # @mjefi/instags
 
+## 0.1.15
+
+### Patch Changes
+
+- 22ceb92: update cloud tags
+
 ## 0.1.14
 
 ### Patch Changes
